@@ -37,7 +37,7 @@ function parseFile(arrLines) {
         "jumuahKhutbah": arrTimes[14]
     }
 
-    setPrayerTimes(prayerTimes);
+    setPrayerTimes(prayerTimes); 
 }
 
 function setPrayerTimes(prayerTimes) {

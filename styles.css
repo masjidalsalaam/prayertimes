@@ -12,8 +12,31 @@ table, th, td {
     border: 1px solid black;
 }
 
+header {
+    background-color: #03A9F4;
+    margin: 0px 0px 0px 0px;
+    padding: 3px 10px 3px 10px;
+    font-size: 20px;
+    color: #F3F3F3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 th, td {
     padding: 10px;
+}
+
+table thead tr th {
+    background-color: #03A9F4;
+    color: #F3F3F3;
+}
+
+.table-header-first-cell::before {
+    content: "\2023   ";
+    font-size: 20px;
+}
+
+.table-header-first-cell {
+    border: 10px
 }
 
 th {
