@@ -30,11 +30,6 @@ table thead tr th {
     color: #F3F3F3;
 }
 
-.table-header-first-cell::before {
-    content: "\2023   ";
-    font-size: 20px;
-}
-
 .table-header-first-cell {
     border: 10px
 }
